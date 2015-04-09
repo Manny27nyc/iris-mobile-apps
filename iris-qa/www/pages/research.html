@@ -1,0 +1,107 @@
+<link type="text/css" href="css/settings.css" rel="stylesheet">
+<style>
+    #answer-variants button {
+        background-color: #FEFEFE;
+        border-radius: 15px;
+        border-color: #C89B64;
+        border-width: 2px;
+        color: #5A2F1F;
+        white-space: normal;
+        font-size: 20px;
+    }
+    #answer-variants button {
+        display: block;
+        margin: 15pt auto;
+        width: 100%;
+    }
+    #question-content {
+        padding-left: 15px;
+        font-size: 24px;
+    }
+    #final-popup {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        display: none;
+        font-size: 24px;
+        z-index: 100;
+    }
+    #popup-text {
+        width: 440px;
+        margin: -60px -220px;
+        position: absolute;
+        background-color: rgb(252, 252, 252);
+        padding: 20px;
+        top: 50%;
+        box-shadow: 0px 1px 3px rgb(153, 153, 153);
+        z-index: 99;
+        left: 50%;
+    }
+    #linb-content {
+        position: absolute;
+    }
+</style>
+<div class="container">
+    <div id="hold-container" class="well">
+        <div id="linb-content">
+            <div id="inner-hold">
+            </div>
+        </div>
+    </div>
+    <div class="settings-button"></div>
+
+    <div id="research-container" class="well" style="display: none;">
+        <div class="logo-min">
+            <img class="pull-right" src="images/logo.png" />
+        </div>
+        <div id="greetings" style="text-align: center; display:none;">
+            <p>Уважаемый заявитель!</p>
+            <p>Оцените, пожалуйста, качество предоставления государственных и муниципальных услуг в МФЦ</p>
+        </div>
+        <div id="question-body">
+            <div id="question-content">
+                "You shouldn't see this, restart the App"
+            </div>
+            <div>
+                <fieldset id="answer-variants" class="widget uib_w_10 d-margins">
+                </fieldset>
+            </div>
+        </div>
+
+    </div>
+    <div id="final-popup" style="text-align: center;">
+        <div id="popup-text">
+            <p>Благодарим за оценку нашего МФЦ! Ждем Вас снова.</p>
+        </div>
+    </div>
+</div>
+
+<div class="modal outer-element fade" data-backdrop="static" id="pin-popup">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close pin-close" data-dismiss="modal">x</button>
+                <h4 class="modal-title">Введите ПИН-код</h4>
+            </div>
+
+            <div class="modal-body">
+                <div class="col uib_col_9 single-col">
+                    <div class="widget-container content-area vertical-col">
+                        <div class="table-thing widget uib_w_2 d-margins">
+                            <label class="narrow-control" for="enter-pin"></label>
+                            <input class="wide-control form-control default" type="text" placeholder="Введите ПИН-код" id="enter-pin"></input>
+                        </div>
+                        <span class="uib_shim"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button data-dismiss="modal" class="btn btn-default" type="button" id="pin-ok">Ок</button>
+                <button data-dismiss="modal" class="btn btn-default pin-close" type="button">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>

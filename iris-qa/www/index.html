@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--HTML5 doctype-->
+<html>
+
+<head>
+    <title>Пульт оценки качества</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="css/app.css" rel="stylesheet">
+    <script src='intelxdk.js'></script>
+    <script src="cordova.js"></script>
+    <script src="xhr.js"></script>
+    <script type="text/javascript">
+        /* Intel native bridge is available */
+        var onDeviceReady = function () {
+            //hide splash screen
+            intel.xdk.device.hideSplashScreen();
+            intel.xdk.device.hideStatusBar();
+            /* document.addEventListener("intel.xdk.device.hardware.back", function () {
+                showModal();
+            }, false);
+
+            document.addEventListener("backbutton", showModal, false);
+
+            var showModal = function (e) {
+                e.preventDefault();
+                console.log('back');
+                intel.xdk.device.addVirtualPage();
+                $('#pin-popup').modal();
+
+            };*/
+        };
+        document.addEventListener("intel.xdk.device.ready", onDeviceReady, false);
+    </script>
+</head>
+
+<body>
+    <div class="indicator">
+    </div>
+    <div id="main-page">
+    </div>
+    <script data-main="app" src="lib/require.js"></script>
+</body>
+
+</html>

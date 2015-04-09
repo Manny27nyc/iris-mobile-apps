@@ -1,0 +1,132 @@
+    body,
+    html,
+    .container {
+        height: 100%;
+    }
+    .well {
+        min-height: 100%;
+        padding: 19px;
+        background-color: #FEFEFE;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-radius: 25px;
+        position: relative;
+        border-width: 0;
+    }
+    .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .btn-default {
+        font-size: 24pt;
+        border-width: 0;
+        border-radius: 0px;
+    }
+    .btn-default {
+        background-image: none;
+        text-shadow: none;
+        background-color: #C89B64;
+        color: #5A2F1F;
+        width: 190px;
+    }
+    .btn-default:hover {
+        background-color: #E9D7C1;
+    }
+    .bottom-button-bar {
+        background-color: #5A2F1F;
+        width: 100%;
+        padding: 15px 25px;
+    }
+    h2 {
+        font-family: PT_sans_bold;
+        font-weight: bold;
+        color: #E24F2E;
+        font-size: 26pt;
+        text-align: center;
+    }
+    .logo-min {
+        height: 100px;
+        overflow: hidden;
+        right: 15px;
+    }
+    .logo-min img {
+        height: 100%;
+    }
+    #close {
+        display: block;
+        margin: 0 auto;
+    }
+    #warning {
+        display: none;
+    }
+    #warning .alert {
+        font-size: 26px;
+        color: red;
+        padding: 10px;
+    }
+    form h3 {
+        display: none;
+    }
+    #settings-content .well {
+        background-color: transparent;
+    }
+    #settingsbtn:hover {
+        text-decoration: none;
+    }
+    #settings-sidebar {
+        font-size: 12pt;
+        background-color: #5A2F1F;
+    }
+    .sidebar-content {
+        height: 100%;
+        overflow-y: auto;
+        position: relative;
+        margin: 0;
+    }
+    .uib_sidebar {
+        position: fixed;
+        height: 100%;
+        top: 0px;
+    }
+    a.list-group-item {
+        margin: 10px;
+    }
+    #settings-sidebar {
+        display: none;
+    }
+    .footer {
+        position: fixed;
+        bottom: -5px;
+        height: 120px;
+        width: 100%;
+    }
+    #settings-page .well {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        height: auto;
+        min-height: 100%;
+    }
+    #sidebar-toggle {
+        height: 25px;
+        padding-bottom: 120px;
+    }
+    #sidebar-toggle > span {
+        float: right;
+    }
+    a#settingsbtn {
+        cursor: pointer;
+        padding: 10px;
+    }
+    a#settingsbtn.active {
+        text-decoration: underline;
+    }
+    #hold-container,
+    #inner-hold {
+        height: 100%;
+        overflow: hidden;
+    }
+    #inner-hold {
+        background: url('../images/ajax-loader.gif') no-repeat;
+        background-color: white;
+        background-position: center;
+    }

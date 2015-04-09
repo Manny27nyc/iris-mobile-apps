@@ -1,0 +1,209 @@
+  <style>
+            body, html, .container {
+                height: 100%;
+            }
+
+
+            .well {
+                min-height: 20px;
+                height: 100%;
+                padding: 19px;
+                background-color: #FEFEFE;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 25px;
+                position: relative;
+                border-width: 0;
+            }
+
+            .container {
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+
+            .btn-default {
+                font-size: 24pt;
+                border-width: 0;
+                border-radius: 0px;
+            }
+
+            .btn-default
+            {
+                background-image: none;
+                text-shadow: none;
+                background-color: #C89B64;
+                color: #5A2F1F;
+                width: 190px;
+            }
+
+            .btn-default:hover{
+                background-color: #E9D7C1;
+            }
+
+            .bottom-button-bar {
+                background-color: #5A2F1F;
+                width: 100%;
+                padding: 15px 25px;
+            }
+
+            h2 {
+                font-family: PT_sans_bold;
+                font-weight: bold;
+                color: #E24F2E;
+                font-size: 26pt;
+                text-align: center;
+                height: 100px;
+            }
+
+            .logo-min {
+                height: 100px;
+                overflow: hidden;
+                position: absolute;
+                right: 15px;
+            }
+
+            .logo-min img {
+                height: 100%;
+            }
+
+            #close {
+                display: block; 
+                margin: 0 auto;
+            }
+
+            #warning {
+                display: none;
+            }
+
+            #warning .alert {
+                font-size: 26px;
+                color: red;
+                padding: 10px;
+            }
+	  
+	  form h3 {
+		  display: none;
+	  }
+	  
+	  #settings-content .well {
+		  background-color: transparent;
+	  }
+	  
+	  #settingsbtn:hover {
+		text-decoration: none;
+	  }
+
+	  #settings-sidebar {
+		font-size: 12pt;
+		background-color: #5A2F1F;
+	  }
+	  
+	  .sidebar-content {
+		  height: 100%;
+		  overflow-y: auto;
+		  position: relative;
+		  margin: 0;
+	  }
+	  
+	  .uib_sidebar {
+		  position: fixed;
+		  height: 100%;
+		  top: 0px;
+	  }
+	  
+	  a.list-group-item {
+		  margin: 10px;
+	  }
+	  
+	  #settings-sidebar {
+		  display: none;
+	  }
+	  
+	  .footer {
+		  position: fixed;
+		  bottom: -5px;
+		  height: 120px;
+		  width: 100%;
+	  }
+	  
+	  #settings-page .well{
+		  border-bottom-right-radius: 0;
+		  border-bottom-left-radius: 0;
+		  height: auto;
+		  min-height: 100%;
+	  }
+	  
+	  #sidebar-toggle {
+		  height: 25px;
+		  padding-bottom: 120px;
+	  }
+	  
+	  #sidebar-toggle > span {
+		  float: right;
+	  }
+	  
+	  a#settingsbtn {
+		  cursor: pointer;
+		  padding: 10px;
+	  }
+	  
+	  a#settingsbtn.active {
+		  text-decoration: underline;
+	  }
+</style>
+
+<div class="container" id="settings-page">
+	<div class="well">
+		<div class="logo-min">
+			<img class="pull-right" src="images/logo.png">
+		</div>
+		<div>
+			<h2>Настройки</h2>
+		</div>
+	
+		<div id="warning">
+			<div class="alert alert-danger" role="alert">Для управления настройками АРМ необходимо обладать правами Администратора</div>
+			<div class="bottom-button-bar">
+				<button type="button"  class="btn btn-lg btn-default close-button" id="close">Закрыть</button>
+			</div>
+		</div>
+		<div>
+			<form id="settings-content" role="form">
+			</form>
+			<div id="sidebar-toggle">
+				<span ><a id="settingsbtn">Дополнительно</a> </span>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<div class="bottom-button-bar">
+			<button type="button" class="btn btn-lg btn-default close-button" id="settings-back">Назад</button>
+			<button type="button" class="btn btn-lg btn-default pull-right"  id="save-settings">Сохранить</button>
+		</div>
+	</div>
+</div>
+<div class="inner-element uib_w_19 uib_sidebar leftbar bar-bg bar-gutter thumb-bg"  id="settings-sidebar">
+	<div class="sidebar-content">
+		<div class="grid grid-pad urow uib_row_4 row-height-4">
+			<div class="col uib_col_10 col-0_12-12">
+				<div class="widget-container content-area vertical-col">
+					<a class="list-group-item allow-badge d-margins" id="clear-settings">
+						<p class="list-group-item-text">Очистить настройки</p>
+					</a>
+					<a class="list-group-item allow-badge d-margins" id="restart-app">
+						<p class="list-group-item-text">Перезапустить</p>
+					</a>
+					<a class="list-group-item allow-badge d-margins" id="debug-app">
+						<p class="list-group-item-text">Отладка</p>
+					</a>
+					<a class="list-group-item allow-badge d-margins" id="exit-app">
+						<p class="list-group-item-text">Выход</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
