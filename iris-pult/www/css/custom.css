@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'PT_sans';
+  src: url('../fonts/PT_Sans.ttf');
+}
+
+@font-face {
+  font-family: 'PT_sans_bold';
+  src: url('../fonts/PT_Sans_Bold.ttf');
+}
+
+html, body {
+	background-color: #5E5970;
+        font-family: PT_sans;
+}
+
+#main-page {
+	height: 100%;
+}
+
+iframe {
+    width : 100%;
+    height: 100%;
+    border: none;
+	display: block;
+	z-index: 1;
+}
+
+#menu-dropdown {
+    margin: 10px 25px;
+    opacity: 0;
+    z-index: 100;
+}
+
+#menu-dropdown:hover {
+    opacity:  1;
+}
+
+#external-window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+#hold {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ z-index: 99;
+ background: url('../images/ajax-loader.gif') no-repeat; 
+ background-color: white;
+ background-position: center;
+}
+
+.settings-button {
+	width: 200px;
+    height: 200px;
+	position:absolute; 
+	left: 0px; 
+	bottom: 0px;
+	z-index:  99;
+}
+
+#settings-content > div > div {
+	display: block !important;
+}
