@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
       "src": "appDesigner",
       "projectGuid": "e4ec0c62-54ac-4b87-a6c1-99aada825ea1",
-      "lastModifiedDate": 1428579816200,
+      "lastModifiedDate": 1428757370104,
       "creationDate": 1428575151041
     },
     "XDK-app-designer": "true",
@@ -25,7 +25,7 @@
         "name_": "Android",
         "preferences_": {
           "android-minSdkVersion": "10",
-          "android-targetSdkVersion": "19",
+          "android-targetSdkVersion": "17",
           "android-installLocation": "auto",
           "Fullscreen": true
         },
@@ -34,7 +34,6 @@
         "appID_": "xdk.iris.operator.pult",
         "appAccess_": [
           {
-            "launch-external": "yes",
             "origin": "*"
           },
           {
@@ -141,7 +140,7 @@
         "name_": "Android-Crosswalk",
         "preferences_": {
           "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "19",
+          "android-targetSdkVersion": "17",
           "android-installLocation": "auto",
           "Fullscreen": true
         },
@@ -150,7 +149,6 @@
         "appID_": "xdk.iris.operator.pult",
         "appAccess_": [
           {
-            "launch-external": "yes",
             "origin": "*"
           },
           {

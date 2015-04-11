@@ -34,6 +34,7 @@ define(['modules/settings', 'modules/helpers/sbutton', 'jquery'],function(settin
 		var url = makeUrl();
 		var iframe = $('<iframe>')
 			.attr('src', url)
+            .attr("seamless","seamless")
             .on('load', function() {
 				prepareExternalWindow();
 				console.log('ext window loaded');

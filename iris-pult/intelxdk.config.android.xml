@@ -8,7 +8,7 @@
 <description>IRIS operator pult</description>
 <author>SDK-group</author>
 <content src="index.html"/>
-<access origin="*" launch-external="yes"/>
+<access origin="*"/>
 <access origin="*"/>
 <icon platform="android" src="images/Icons/icon48.png" density="mdpi" width="48" height="48"/>
 <icon platform="android" src="images/Icons/icon72.png" density="hdpi" width="72" height="72"/>
@@ -23,7 +23,7 @@
 <splash platform="android" src="images/Splash/Android640x480.png" density="hdpi" width="640" height="480" orientation="landscape"/>
 <splash platform="android" src="images/Splash/Android960x720.png" density="xhdpi" width="960" height="720" orientation="landscape"/>
 <preference name="android-minSdkVersion" value="10"/>
-<preference name="android-targetSdkVersion" value="19"/>
+<preference name="android-targetSdkVersion" value="17"/>
 <preference name="android-installLocation" value="auto"/>
 <preference name="Fullscreen" value="true"/>
 <preference name="splashscreen" value="splash"/>
