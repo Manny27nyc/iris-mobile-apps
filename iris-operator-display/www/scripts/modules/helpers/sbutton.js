@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['jquery','bootstrap'], function(){
 	
 	return function(modal){

@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['hydrate', 'iris'], function (Hydrate, iris) {
     var dehydrate = function (data) {
         var resolver = iris.makeHydrateContextResolver(Hydrate);

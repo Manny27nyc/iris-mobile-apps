@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/settings','modules/pages'],function(settings,pages){
 	console.log('index ui init');
 	

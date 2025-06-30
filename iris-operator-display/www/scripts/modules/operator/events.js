@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/amqp/amqp', 'modules/operator/events_atomic', 'modules/operator/events_compound'], function (amqp, atomic, compound) {
 
     var OperatorEvents = function (operator) {

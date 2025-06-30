@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/helpers/formfields', 'modules/settings'], function (formfields, settings) {
     console.log('settings ui init');
 

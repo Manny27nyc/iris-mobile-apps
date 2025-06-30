@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/settings', 'modules/helpers/sbutton', 'jquery'],function(settings,sbutton){
 	console.log('externalWindow ui init');
 	

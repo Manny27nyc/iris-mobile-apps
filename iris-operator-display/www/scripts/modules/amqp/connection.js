@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/settings', 'modules/events/event-list', 'stomp'], function (settings, EventList) {
     console.log('connection init');
 

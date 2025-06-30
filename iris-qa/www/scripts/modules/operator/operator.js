@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/operator/events'], function (OperatorEvents) {
     console.log('init operator class');
     var Operator = function (installation, office_id, operator_id) {

@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/research/iterator', 'bluebird'], function (Iterator, Promise) {
     console.log('init research object');
     var results = [],

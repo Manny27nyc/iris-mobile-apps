@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/pages', 'jquery'], function (pages) {
     console.log('main start');
     pages.init();

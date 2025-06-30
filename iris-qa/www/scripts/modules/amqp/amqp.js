@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/amqp/connection', 'modules/amqp/queue', 'modules/amqp/rpc', 'modules/events/event-list'], function (connection, queue, rpc, EventList) {
     console.log('amqp init');
 

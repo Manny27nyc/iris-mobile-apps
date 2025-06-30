@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 /*
 jsLinb 4.0
 Copyright(c) 2011 Yingbo Li(www.linb.net, linb.net[at]gmail.com)

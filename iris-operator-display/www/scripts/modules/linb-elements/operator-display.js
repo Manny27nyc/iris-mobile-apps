@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/KB/knowledge-base', 'bluebird', 'modules/amqp/amqp', 'modules/linb-elements/clock'], function (kb, Promise, amqp, clock) {
 
     function defer() {

@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 console.log('app start');
 var __APP_LINB_ASSETS__ = "lib";
 

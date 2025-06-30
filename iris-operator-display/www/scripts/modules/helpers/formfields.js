@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/settings','const/formfields','jsoneditor','jquery'],function(settings, formfields_manifest){
 	var editor;
 

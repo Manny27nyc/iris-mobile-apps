@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['const/settings','modules/storage'],function(manifest,storage){
 	var settings = undefined;
     var keys = [];

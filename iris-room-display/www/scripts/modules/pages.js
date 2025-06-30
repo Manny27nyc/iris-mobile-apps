@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['jquery'],function(ui){
 	console.log('init pages');
 	var prepareLinks = function() {

@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(function(){
 	var ru = {
 			error_maximum_excl: "Значение должно быть меньше {{0}}",

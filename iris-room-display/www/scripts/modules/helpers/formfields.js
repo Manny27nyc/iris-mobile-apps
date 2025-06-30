@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/settings','jsoneditor','jquery'],function(settings){
 	var editor;
 	//move to  jsoneditor deps

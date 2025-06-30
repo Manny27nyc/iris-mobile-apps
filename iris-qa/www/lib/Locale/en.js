@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 (linb.Locale.en||(linb.Locale.en={})).inline={
     ok:'O K',
     cancel:'Cancel',

@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/settings', 'modules/operator/operator', 'modules/linb-elements/operator-display', 'jquery', 'linb'], function (settings, Operator, OperatorDisplay) {
     console.log('operator-display ui init');
 

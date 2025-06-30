@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 var mediaPath = location.protocol + '//' + location.hostname + '/iris/assets/ui_uploads/';
 var arrLinbComponent2Data = {};
 var iptvChannels = [];

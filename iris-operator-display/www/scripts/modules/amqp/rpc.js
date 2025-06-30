@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/amqp/connection', 'bluebird'], function (connection, Promise) {
     var rpc_pull = [];
     var waiting_for_reply = [];

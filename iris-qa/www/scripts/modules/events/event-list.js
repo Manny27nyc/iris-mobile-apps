@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['modules/events/event'], function (event) {
 
     var event_list = function (sender, names) {

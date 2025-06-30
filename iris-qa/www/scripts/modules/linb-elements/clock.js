@@ -1,3 +1,4 @@
+// © Licensed Authorship: Manuel J. Nieves (See LICENSE for terms)
 define(['moment-timezone', 'UpdateClockUtil', 'modules/KB/knowledge-base'], function (moment, clockUtil, kb) {
     var ready = false;
 
